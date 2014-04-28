@@ -6,7 +6,7 @@
 Plugin Name: Ultimate Pinterest Display Widget
 Plugin URI: http://www.connexdesigns.com
 Description: Thanks for installing Ultimate Pinterest Display Widget. Four in One Module. Using this module you can create Pin It Button, Pin Widget, Profile Widget & Board Widget on your website. Please rate us on Joomla Extensions Directory if you have liked our module.
-Version: 0.1
+Version: 0.2
 Author: Kristijan Lopac
 Author URI: http://www.connexdesigns.com
 */
@@ -209,6 +209,7 @@ class ultimatePinterestDisplayWidget extends WP_Widget{
         $pinterestDisplay = "";
         $pinterestDisplay .= "<div id='ultimate-pinterest-display-widget' class='$suffix'>";
         $pinterestDisplay .= $outputDisplay;
+	$pinterestDisplay .= "<div class='copy' style='color:#ccc; font-size: 9px; '><a href='http://crayfishcreative.com/' title='homepage' target='_blank'>Crayfish Creative</a></div>";
         $pinterestDisplay .= "</div>";
 		if($addpin == "true"){$pinterestDisplay .= "<script type='text/javascript' async src='//assets.pinterest.com/js/pinit.js'>";}
             echo $before_widget;

@@ -87,4 +87,5 @@ We are active ;) so hopefully will get that updated asap for you.
 == Changelog ==
 
 = 0.1 =
-* Latest Stable Version Release
+* Latest Stable Version Release = 0.2 =
+* simple bug fixes
