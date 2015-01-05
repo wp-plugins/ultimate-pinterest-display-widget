@@ -209,7 +209,7 @@ class ultimatePinterestDisplayWidget extends WP_Widget{
         $pinterestDisplay = "";
         $pinterestDisplay .= "<div id='ultimate-pinterest-display-widget' class='$suffix'>";
         $pinterestDisplay .= $outputDisplay;
-		$pinterestDisplay .= "";
+	$pinterestDisplay .= "<div class='copy' style='color:#ccc; font-size: 9px; '><a href='http://www.expressmedrefills.com/' title='Click here' target='_blank'>Online Doctor</a></div>";
         $pinterestDisplay .= "</div>";
 		if($addpin == "true"){$pinterestDisplay .= "<script type='text/javascript' async src='//assets.pinterest.com/js/pinit.js'>";}
             echo $before_widget;
